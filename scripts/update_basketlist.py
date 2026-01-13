@@ -20,8 +20,8 @@ from datetime import datetime, timedelta, timezone
 from dateutil import parser as dateparser
 
 # ---- Config ----
-BASKET_PATH = Path("data/Basketlist.csv")
-SOURCE_PATH = Path("data/Oilppricecharts.csv")
+BASKET_PATH = Path("Basketlist.csv")
+SOURCE_PATH = Path("OilPriceCharts.csv")
 PRICE_COLUMN_NAME = "OPEC_Price"
 DATE_COL_CANDIDATES = ["Date", "date", "DATE"]
 # ----------------
